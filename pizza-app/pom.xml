@@ -30,6 +30,11 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <dependency>
+      <groupId>app.pizza</groupId>
+      <artifactId>pizza-app-api</artifactId>
+      <version>0.0.1</version>
+    </dependency>
 
     <dependency>
       <groupId>org.postgresql</groupId>

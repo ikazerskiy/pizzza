@@ -6,7 +6,7 @@
 
   <groupId>app.pizza</groupId>
   <artifactId>pizza-app-aggregate</artifactId>
-  <version>1.0</version>
+  <version>0.0.1</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -16,6 +16,7 @@
 
   <modules>
     <module>pizza-app</module>
+    <module>pizza-app-api</module>
   </modules>
 
 </project>
