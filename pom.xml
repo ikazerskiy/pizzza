@@ -17,6 +17,7 @@
   <modules>
     <module>pizza-app</module>
     <module>pizza-app-api</module>
+    <module>pizza-web</module>
   </modules>
 
 </project>
