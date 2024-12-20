@@ -2,7 +2,7 @@ package app.pizza.controller;
 
 import app.pizza.api.Pizza;
 import app.pizza.api.request.CreatePizzaRequest;
-import app.pizza.api.response.CommonResponse;
+import app.pizza.api.response.CommonCrudResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PizzaController {
 
   @PostMapping("/")
-  public ResponseEntity<CommonResponse<Pizza>> createPizza(@RequestBody CreatePizzaRequest request) {
+  public ResponseEntity<CommonCrudResponse<Pizza>> createPizza(@RequestBody CreatePizzaRequest request) {
     return ResponseEntity.ok(null);
   }
 
